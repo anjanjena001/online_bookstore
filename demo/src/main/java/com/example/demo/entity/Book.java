@@ -38,9 +38,9 @@ public class Book {
 	@Column(name="units_in_stock")
 	private int unitsInStock;
 	@Column(name="date_created")
-	private Date dateCreatedOn;
+	private Date createdOn;
 	@Column(name="last_updated")
-	private Date lastUpdatedOn;
+	private Date updatedOn;
 	
 	
 	/*public Long getId() {
