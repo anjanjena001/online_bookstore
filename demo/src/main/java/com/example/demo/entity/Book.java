@@ -31,7 +31,9 @@ public class Book {
 	private String name;
 	private String description;
 	@Column(name="unit_price")
-	private BigDecimal unitPrice;
+	private BigDecimal unitPrice;	
+	@Column(name="image_url")
+	private String imageurl;
 	private Boolean active;
 	@Column(name="units_in_stock")
 	private int unitsInStock;
@@ -39,8 +41,6 @@ public class Book {
 	private Date dateCreatedOn;
 	@Column(name="last_updated")
 	private Date lastUpdatedOn;
-	
-	private Book(){}
 	
 	
 	/*public Long getId() {
